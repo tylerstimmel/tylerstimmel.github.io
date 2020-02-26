@@ -36,8 +36,14 @@ a:hover{
 .table {
    font-family:'Noto Sans TC',sans-serif;
    font-size: 12pt;
+ 
+
+ .section {
+   text-decoration: underline;
+   text-decoration-style: double;
  }
 
- .paragraph {
-
+ .address {
+   text-decoration: underline;
+   text-decoration-color: red;
  }
