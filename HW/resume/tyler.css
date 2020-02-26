@@ -37,9 +37,7 @@ a:hover{
    font-family:'Noto Sans TC',sans-serif;
    font-size: 25pt;
 
-.awards {
-  font-family:'Noto Sans TC',sans-serif;
-  font-size: 25pt;
+
 }
 
 .name {
@@ -52,4 +50,9 @@ a:hover{
  .address {
    text-decoration: underline;
    text-decoration-color: red;
+ }
+
+ .awards {
+   font-family:'Noto Sans TC',sans-serif;
+   font-size: 25pt;
  }
