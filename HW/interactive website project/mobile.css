@@ -1,0 +1,33 @@
+@media only screen and (max-width: 767px) {
+  body {
+    margin: 5%;
+  }
+
+  h1 {
+    font-size:
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr;
+  }
+
+  .g-head {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .g-img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .g-text {
+    grid-row: 3/4;
+    grid-column: 1/2;
+  }
+}

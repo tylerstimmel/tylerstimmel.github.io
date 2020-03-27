@@ -1,27 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">);
+@import url("https://fonts.googleapis.com/css?family=Kanit&display=swap");
 
 body {
-  width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   background-image: url("images/background.jpg");
 }
 
 h1 {
-text-align: center;
-font-size: 75px;
-font font-family: 'Kanit', sans-serif;
-border: 5px solid;
-border color: green;
-
-}
-
-.g1-img-1{
-  height: 200px;
-
+  text-align: center;
+  font-size: 75px;
+  font-family: 'Kanit', sans-serif;
+  border: 5px solid green;
 }
 
 nav a {
   color: Green;
   font-size: 20px;
+}
+img {
+  width: 90%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+}
+.g-head {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
 
+.g-img{
+grid-column: 1/2;
+grid-row: 2/3;
+}
+.g-text{
+  grid-column: 2/3;
+  grid-row: 2/3;
 }
