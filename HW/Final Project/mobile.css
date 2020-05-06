@@ -5,7 +5,7 @@
   }
 
   h1 {
-    font-size:50px;
+    font-size: 50px;
   }
 
   img {
@@ -30,5 +30,9 @@
   .grid-info {
     grid-row: 3/4;
     grid-column: 1/2;
+  }
+
+  .grid-info p {
+    margin-top: 10px;
   }
 }
