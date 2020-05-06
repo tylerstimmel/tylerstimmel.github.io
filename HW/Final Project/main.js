@@ -5,3 +5,4 @@ $(document).ready(function() {
   $("#intro").click(function(){
     $("#introcaption").toggle();
   });
+});
